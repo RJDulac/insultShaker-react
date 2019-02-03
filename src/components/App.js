@@ -1,11 +1,11 @@
 import React from "react";
-import CombineWords from "./CombineWords";
+import RandomWordList from "./RandomWordList";
 
 class App extends React.Component {
   render() {
     return (
       <div className="App">
-        <CombineWords />
+        <RandomWordList />
       </div>
     );
   }
